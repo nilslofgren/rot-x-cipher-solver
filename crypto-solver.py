@@ -41,7 +41,7 @@ def encrypt(str, val):
 
 def decrypt(ct):
     words = word_tokenize(ct)
-    filename = "C:\\CSC2400\\words.txt"
+    filename = "C:\\~file-path-here~\\words.txt"
 
     word_dict = read_dictionary(filename)
     plaintext = ""
