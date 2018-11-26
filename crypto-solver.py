@@ -1,7 +1,7 @@
 # Program to ask user for plaintext input
 # and x value to perform rot(x)
 # return encoded input that was passed
-# and work to decode the new string without using passed info
+# and work to decode the new string only using ciphertext
 import nltk as nltk
 from nltk.tokenize import word_tokenize
 import random
